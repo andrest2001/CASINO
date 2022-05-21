@@ -46,13 +46,17 @@ def opciones():
     if pregunta=='1' or pregunta=='tragaperras':
         os.system('cls')
         start()
-        import slots_varios_apuesta
+        import slots
     if pregunta=='2' or pregunta=='blackjack':
         return 2
     if pregunta=='3' or pregunta=='carrera de caballos':
-        return 3
+        os.system('cls')
+        start()
+        import carr_caballos
     if pregunta=='4' or pregunta=='ruleta':
-        return 4
+        os.system('cls')
+        start()
+        import ruleta2
     if pregunta=='5' or pregunta=='bingo':
         return 5
     else:
