@@ -1,0 +1,5 @@
+#para instalar los módulos usar el siguiente comando:
+#pip install -r requirements.txt
+
+pip install playsound
+pip install prettytable
